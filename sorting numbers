@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int num[6];
+  int x,y,z;
+  for (x=0;x<=5;x++)
+  {
+
+
+    cout << "please enter your number :";
+    cin >> num [x];
+  }
+
+  for (x=0;x<=5;x++)
+  {
+      for (y=x+1;y<=5;y++)
+  {
+      if (num [x]> num [y])
+
+  {
+      c=num[x];
+      num [x]=num[y];
+      num[y]=z;
+  }
+
+     }
+  }
+  for (x=0;x<=5;x++)
+  {
+      cout <<"\t"<< num[x]<<endl;
+  }
+
+    return 0;
+}
